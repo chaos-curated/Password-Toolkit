@@ -13,8 +13,7 @@ if len(password) >= 12:
 elif len(password) >= 8:
     score += 1
 
-# Check characters and add 
-# score
+# Check characters and add score
 for ch in password:
     if ch.isupper() and not Upper_case:
         Upper_case = True
